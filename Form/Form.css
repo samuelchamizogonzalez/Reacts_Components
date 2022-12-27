@@ -1,0 +1,51 @@
+.form-title { 
+  color: #006fad;
+  font-size:  40px;
+  height: 1em;
+  margin-bottom: 1em;
+}
+
+.form-component{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+}
+
+.input-box fieldset {
+  border:1px solid #046fda69;
+  height: 3em;
+}
+
+.input-box div {
+  height: 3em;
+  top: 2em;
+  margin-top: 1em;
+}
+
+.input-box label {
+  top: 3em;
+}
+
+.form{
+  position: relative;
+  background-color: #ffffff;
+  height: 500px;
+  width: 400px;
+  border-radius: 1em;
+  border: #046fda69 solid 1px;
+  box-shadow: 5px 5px 15px #046fda69;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+

@@ -1,11 +1,11 @@
 import './CardInfo.css';
 
-//Contains information about person
 const Card = ({ usuario, nombre, puesto, img }) => (
   <div className="Card" >
     <div className="img-container">
       <img className="img" src={img}></img>
     </div>
+
     <div className="info-container">
       <p>#{usuario}</p>  
       <div className="separator"/>
@@ -19,8 +19,9 @@ const Card = ({ usuario, nombre, puesto, img }) => (
 
 function CardInfo() {
   return (
-    <div>
+    <div id="cardinfo">
       <p className="card-title">Bugabit</p>
+      
       <div className="Card-info">      
         <Card usuario="scg" nombre="Samuel Chamizo González" puesto="Software Developer" img="https://media.licdn.com/dms/image/C4E03AQEjNViMc-Wonw/profile-displayphoto-shrink_800_800/0/1654013682848?e=2147483647&v=beta&t=TjlV9GPiTNDBJ3W1V2vFA_dSIht2H0_avtIiJPisOZs"/>  
         <Card usuario="dgo" nombre="Diego García" puesto="Software Developer" img="https://media.licdn.com/dms/image/C4E03AQHSD6YMb0Kr5g/profile-displayphoto-shrink_400_400/0/1660410443108?e=1677110400&v=beta&t=caQrNxgdTwQR9u7eraJe7WIj3VYD4VnMNCXvUgNPL5w"/>

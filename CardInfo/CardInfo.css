@@ -1,6 +1,7 @@
 p.card-title { 
   color: #006fad;
   font-size:  40px;
+  margin-bottom: 1em;
 }
 
 p.name {
@@ -38,9 +39,10 @@ p.name {
   width: 60%;
   height: 100%;
   border-radius: 1em;
-  align-items: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .job-position {
